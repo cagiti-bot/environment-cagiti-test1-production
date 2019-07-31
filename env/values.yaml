@@ -13,9 +13,10 @@ expose:
   - --v
   - 4
   config:
-    domain: 34.76.252.164.nip.io
+    domain: caicooper.com
     exposer: Ingress
-    http: "true"
+    http: "false"
+    tlsacme: "true"
 jenkins:
   Servers:
     Global: {}
